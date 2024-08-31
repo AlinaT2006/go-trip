@@ -1,0 +1,145 @@
+@media screen and (max-width: 1040px) {
+  .header__nav-list {
+    padding: 0;
+  }
+  .header__nav-logo {
+    padding: 0;
+  }
+  .catalog__wrap {
+    flex-wrap: wrap;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about__wrap {
+    flex-direction: column;
+  }
+  .catalog {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner__bg {
+    height: 100%;
+  }
+  .banner__title {
+    font-size: 60px;
+  }
+  .banner__text {
+    font-size: 30px;
+  }
+  .banner__button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .catalog__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .catalog__wrap {
+    flex-wrap: wrap;
+  }
+  .card__title-item {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .contacts__title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .contacts__desc {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .contacts__desc-links {
+    margin-top: 15px;
+  }
+  .contacts {
+    padding: 50px 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .footer__nav-list-item a {
+    font-size: 15px;
+  }
+  .pseodo__link {
+    font-size: 15px;
+  }
+  .footer__nav-text {
+    font-size: 10px;
+  }
+  .footer__nav {
+    gap: 30px;
+    padding: 20px 0 10px;
+  }
+  .about__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 20px 0;
+  }
+
+  .footer__nav-list-item a {
+    font-size: 12px;
+  }
+
+  .banner__wrap {
+    padding-bottom: 60px;
+    height: 450px;
+  }
+  .banner {
+    height: 100%;
+  }
+  .about {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner__bg {
+    height: 350px;
+  }
+  .banner__title {
+    font-size: 50px;
+  }
+  .banner__text {
+    font-size: 25px;
+  }
+  .banner__wrap {
+    gap: 10px;
+    height: 350px;
+  }
+  .about__desc-text {
+    font-size: 12px;
+  }
+  .contacts__desc-text {
+    font-size: 16px;
+  }
+  .contacts__desc-links {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner__text {
+    text-align: center;
+  }
+  .contacts__desc {
+    gap: 0;
+  }
+}
